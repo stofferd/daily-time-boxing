@@ -1,0 +1,18 @@
+.early {
+    background: green;
+}
+.emails {
+    background: red;
+}
+.projects {
+    background: blue;
+}
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: sans-serif;
+    color: #fff;
+
+}
