@@ -1,18 +1,28 @@
 .early {
-    background: green;
+    background: linear-gradient(#03f,#fcc);
 }
 .emails {
-    background: red;
+    background: linear-gradient(rgb(128, 66, 66),#500);
 }
 .projects {
-    background: blue;
+    background: linear-gradient(90deg,#afa,#faf);
 }
-.title {
+.container {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-family: sans-serif;
-    color: #fff;
-
+    text-align: center;
 }
+.title {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.desc {
+    color: #fff;
+}
+/* body {
+    background: linear-gradient(#afa,#faf) !important;
+} */
