@@ -5,13 +5,15 @@ function checkTime() {
     var body = document.querySelector('body');
     var title = document.querySelector('.title');
     var desc = document.querySelector('.desc');
+    var clock = document.querySelector('.clock');
 
-    // console.log(date);
-    // console.log(date.getHours());
-    // console.log(date.getMinutes());
-    // console.log('running');
+    clock.innerHTML = hours + ':' + minutes;
 
-    if (hours < 9 || (hours === 9 && minutes <= 30)) {
+    if (hours === 11 && minutes === 11) {
+        body.className = 'warning';
+        title.innerHTML = '11:11';
+        desc.innerHTML = '';
+    } else if (hours < 9 || (hours === 9 && minutes <= 30)) {
         //early!
         body.className = 'early';
         title.innerHTML = 'Early bird';
