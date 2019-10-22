@@ -30,6 +30,9 @@ body {
     color: #fff;
 
 }
+.install {
+    display: none; /* for now */
+}
 /* body {
     background: linear-gradient(#afa,#faf) !important;
 } */
