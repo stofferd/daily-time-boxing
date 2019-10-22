@@ -54,7 +54,8 @@ function checkTime() {
     var desc = document.querySelector('.desc');
     var clock = document.querySelector('.clock');
     var oldStatus = status;
-    clock.innerHTML = hours + ':' + minutes;
+    var mins = minutes < 10 ? '0' + minutes : minutes;
+    clock.innerHTML = hours + ':' + mins;
 
     if (hours === 11 && minutes === 11) {
         body.className = 'warning';
