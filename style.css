@@ -24,10 +24,12 @@ body {
     text-transform: uppercase;
     line-height: 0.8;
     margin-bottom: 0;
+    margin-top: 0;
 }
 .desc {
     color: #fff;
     margin-top: 4%;
+    margin-bottom: 0;
 }
 .clock {
     color: #fff;
