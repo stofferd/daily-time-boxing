@@ -1,0 +1,14 @@
+{
+    "name": "ColourBLAST",
+    "short_name": "cblast",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color":"#ffffff",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }]
+  }
