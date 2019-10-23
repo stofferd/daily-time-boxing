@@ -30,7 +30,8 @@ install.addEventListener('click', (e) => {
 // Logic
 var status = 0;
 var airhorn = document.querySelector('.airhorn');
-var promise = airhorn.play();
+var chime = document.querySelector('.chime');
+var promise = chime.play();
 
 if (promise !== undefined) {
     promise.then(_ => {
@@ -39,7 +40,7 @@ if (promise !== undefined) {
         // Autoplay was prevented.
         // Show a "Play" button so that user can start playback.
         document.querySelector('.start').innerHTML = ''; // maybe play button
-        airhorn.play();
+        chime.play();
     });
 }
 
@@ -105,13 +106,15 @@ function checkTime() {
         status = 6;
     }
     if (oldStatus !== status) {
-        // AIRHORN
-        airhorn.play();
-
+        if (status === 6) {
+            airhorn.play();
+        } else {
+            chime.play();
+        }
     }
 }
 checkTime();
-airhorn.play();
+chime.play();
 setInterval(checkTime, 60000);
 
 // 9.30 - 10 setup, asana, emails

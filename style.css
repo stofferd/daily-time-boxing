@@ -11,6 +11,9 @@ body {
 .projects {
     background: linear-gradient(90deg,#afa,#faf);
 }
+.warning {
+    background: linear-gradient(45deg,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0,#f00,#ff0);
+}
 .container {
     position: absolute;
     left: 50%;
