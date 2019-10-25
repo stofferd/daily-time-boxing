@@ -49,6 +49,12 @@ body {
 .hide {
     display: none;
 }
+#snackbar {
+    display: none;
+}
+#snackbar.show {
+    display: block;
+}
 /* body {
     background: linear-gradient(#afa,#faf) !important;
 } */
