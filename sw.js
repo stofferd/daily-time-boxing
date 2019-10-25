@@ -1,8 +1,10 @@
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('sw-cache').then(function(cache) {
-      return cache.add('index.html');
       console.log({navigator});
+      console.log({navigato0r:window.navigator});
+
+      return cache.add('index.html');
       
     })
   );
