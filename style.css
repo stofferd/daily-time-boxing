@@ -55,6 +55,10 @@ body {
 #snackbar.show {
     display: block;
 }
+.reload {
+    font-weight: bold;
+    text-decoration: underline;
+}
 /* body {
     background: linear-gradient(#afa,#faf) !important;
 } */
