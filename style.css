@@ -46,6 +46,9 @@ body {
 .install {
     display: none; /* for now */
 }
+.hide {
+    display: none;
+}
 /* body {
     background: linear-gradient(#afa,#faf) !important;
 } */
