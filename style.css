@@ -94,9 +94,10 @@ body {
       opacity: 1;
     }
 }
-.reload {
+#reload {
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }
 /* body {
     background: linear-gradient(#afa,#faf) !important;
